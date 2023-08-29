@@ -11,15 +11,21 @@ Here's the updated version of the repository.
 The main file for the network is the TestFlattenAutoencoder. To ensure proper functioning, 
 you need to establish the subsequent folder structure:
 
-if you use this code please cite this "A blind convolutional deep autoencoder for
-spectral unmixing of hyperspectral images over waterbodies"
+**if you use this code please cite this "A blind convolutional deep autoencoder for
+spectral unmixing of hyperspectral images over waterbodies"**
+
 **How do I get set up?**
 
 autoenconder_owt:
+
 --data
+
 --model
+
 --results
+
 --utils
+
 requirements.txt
 Readme.md
 .gitignore
@@ -103,7 +109,17 @@ batch_size_model = 15
 
 ''' configuration_file = 'configuration_file_DCNN_SU' '''
 
-configuration_file = 'samson_configuration_file_DCNN_SU'  # This JSON file configures network parameters for Samson dataset.
+
+configuration_file = 'samson_configuration_file_DCNN_SU'  # This JSON file configures network parameters for the Samson dataset.
+The algorithm was executed on a Dell Precision Server 7920 Rack XCTO Base, equipped with an Intel Xeon Gold processor, 
+a 4GB Nvidia T1000 graphics card, a 1 TB SATA hard drive, and 64GB of RAM. 
+If the computer you are using to run this code does not possess similar resources, 
+you can adjust the parameters within the configuration file to match the image size, as shown below:
+
+"patch_size_model": 100,
+
+"batch_size": 100,
+
 
 **For Jasper, you can use the provided configuration_file_DCNN_SU.json. The configuration is shared in the results folder
 Parameters are configured as follows:**
@@ -130,7 +146,7 @@ In this case, files are saved in the data folder.
 **Once you have the 3D tensor, you can read it in MATLAB to visualize endmembers and abundance maps.
 You can also assess the model using the SAD metrics and RMSE.**
 
-**Finally the utils folder provides all the .py developed for this publication.**
+**Finally, the utils folder provides all the .py developed for this publication.**
 
 **Who do I talk to?**
 

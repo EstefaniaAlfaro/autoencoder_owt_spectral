@@ -1,6 +1,5 @@
 from tensorflow.keras import layers, losses, regularizers
 from SumToOneConstraint import *
-from GreaterThanZero import *
 from CustomNormalization import *
 from CustomLossFunctions import *
 
