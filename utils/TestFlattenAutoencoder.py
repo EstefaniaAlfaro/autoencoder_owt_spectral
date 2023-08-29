@@ -36,7 +36,6 @@ batch_size_model = 15
 configuration_file = 'samson_configuration_file_DCNN_SU'
 
 
-
 def blind_autoencoder_test():
     print('1. Loading the configuration file: ----')
     # SaveConfigurationFile(results_path, configuration_file).save_configurations_file(parameters_file)
