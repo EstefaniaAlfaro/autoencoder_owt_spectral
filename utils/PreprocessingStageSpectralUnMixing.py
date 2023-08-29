@@ -8,14 +8,13 @@ from EnhancementInitializer import *
 from ScalingDataset import *
 from GeometricalsEndMembersMethods import *
 from ReshapeHypercube import *
-from DecoderVisualization import *
 from PatchesDataset import *
 from LoadGroundTruth import *
 
 
 def preprocessing_stage_spectral(data_path, ground_truth_path, data_target, ground_truth_target,
                                  ground_truth_abundances_label, image_width, image_height, end_members_number,
-                                 case_option_abundances_maps, plot_number, batch_size, rows_number, columns_number,
+                                 case_option_abundances_maps, batch_size, rows_number, columns_number,
                                  batch_size_depth, patch_size, image_size, training_percentage, testing_percentage,
                                  validation_percentage, patch_size_model,
                                      number_patches, batch_size_model):

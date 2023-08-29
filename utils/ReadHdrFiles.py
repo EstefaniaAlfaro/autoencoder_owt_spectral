@@ -1,6 +1,4 @@
-import pdb
 import os
-import numpy as np
 from spectral import *
 
 

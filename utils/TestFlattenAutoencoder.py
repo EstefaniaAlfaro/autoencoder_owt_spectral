@@ -1,8 +1,6 @@
 from PreprocessingStageSpectralUnMixing import *
 from SaveConfigurationFile import *
 from TestNonSymmetricalAutoencoder import *
-from RunningExperimentDCNN_SU import *
-from TestNSAEU import *
 
 
 data_path = '../data/samson_1.mat'
@@ -14,7 +12,6 @@ ground_truth_abundances_label = 'A'
 extension = '.mat'
 patch_size = 32  # Size of the patches to be extracted from the input images
 image_size = 95
-plot_number = 4
 image_width = 95
 image_height = 95
 batch_size = 20
@@ -50,7 +47,6 @@ def blind_autoencoder_test():
                                                                                 image_width, image_height,
                                                                                 end_members_number,
                                                                                 case_option_abundances_maps,
-                                                                                plot_number,
                                                                                 batch_size, rows_number, columns_number,
                                                                                 batch_size_depth, patch_size,
                                                                                 image_size,

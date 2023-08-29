@@ -1,7 +1,4 @@
 from tensorflow.keras import layers, losses, regularizers
-from SumToOneConstraint import *
-from GreaterThanZero import *
-import numpy as np
 from NSAEU_Encoder import *
 from NSAEU_Decoder import *
 
