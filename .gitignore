@@ -59,6 +59,4 @@ model/autoencoder_model_spectral_1.h5
 model/autoencoder_model_spectral_2.h5
 model/autoencoder_model_spectral_3.h5
 
-data/end3.mat
-data/samson_1.mat
 results/results_samson.mat

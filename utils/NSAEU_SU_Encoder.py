@@ -3,8 +3,6 @@ from tensorflow.keras import layers, losses, regularizers
 from SumToOneConstraint import *
 from CustomNormalization import *
 from keras import layers
-from keras.layers import Input, concatenate
-from keras.models import Model
 
 
 class NonSymmetricalEncoderSu:

@@ -146,6 +146,14 @@ In this case, files are saved in the data folder.
 **Once you have the 3D tensor, you can read it in MATLAB to visualize endmembers and abundance maps.
 You can also assess the model using the SAD metrics and RMSE.**
 
+**To utilize the provided code in Matlab, follow these steps:**
+
+1. Run samson_abundances_nsae.m to generate abundance maps and compute the RMSE metric. Make sure to include all 
+the files provided within the folder.
+2. To show the comparison between the endmembers extracted by our NSAE-SU and those obtained for UnDIP, and CNNAE, 
+execute end_members_comp_samson.m. Ensure that you have all the necessary files and resources available 
+before running the code.
+
 **Finally, the utils folder provides all the .py developed for this publication.**
 
 **Who do I talk to?**
