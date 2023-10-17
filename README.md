@@ -14,6 +14,24 @@ you need to establish the subsequent folder structure:
 **if you use this code please cite this "A blind convolutional deep autoencoder for
 spectral unmixing of hyperspectral images over waterbodies"**
 
+**URL**
+
+**https://www.frontiersin.org/articles/10.3389/feart.2023.1229704/full**
+
+**bibtex:**
+
+**@article{AlfaroMeja2023,
+  doi = {10.3389/feart.2023.1229704},
+  url = {https://doi.org/10.3389/feart.2023.1229704},
+  year = {2023},
+  month = oct,
+  publisher = {Frontiers Media {SA}},
+  volume = {11},
+  author = {Estefan{\'{\i}}a Alfaro-Mej{\'{\i}}a and Vidya Manian and Joseph D. Ortiz and Roger P. Tokars},
+  title = {A blind convolutional deep autoencoder for spectral unmixing of hyperspectral images over waterbodies},
+  journal = {Frontiers in Earth Science}
+}**
+
 **How do I get set up?**
 
 autoenconder_owt:
